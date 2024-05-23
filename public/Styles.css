@@ -1,0 +1,112 @@
+body {
+    background-color: #121212;
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer {
+    background-color: #1e1e1e;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+nav a {
+    color: #bb86fc;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2em;
+    text-align: center;
+}
+
+.products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.product-card {
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    text-align: left;
+    width: 200px;
+}
+
+.product-card h3 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    text-align: left;
+}
+
+form input, form textarea, form button {
+    border-radius: 4px;
+    border: none;
+    padding: 0.5em;
+}
+
+form button {
+    background-color: #bb86fc;
+    color: #121212;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #9b6cdc;
+}
+
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.producto-card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.producto-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #9b6cdc;
+}
+
+
+.producto-card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease; 
+}
+
+.producto-card:hover {
+    box-shadow: 0 0 20px #9b6cdc; 
+
+
